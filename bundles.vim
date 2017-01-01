@@ -6,7 +6,8 @@ call vundle#rc()
 
 " let Vundle manage Vundle
 " required!
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
+"Bundle 'gmarik/vundle'
 
 "------------------
 " Code Completions
