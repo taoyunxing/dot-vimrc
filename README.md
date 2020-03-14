@@ -35,6 +35,13 @@ yaourt -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
 
+On Mac, you update vim version into 8.2+ using the following command:
+
+```
+brew update
+brew upgrade vim
+```
+
 ### Tutorial
 
 ``` vim
