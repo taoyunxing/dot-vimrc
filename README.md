@@ -30,7 +30,7 @@ Such as completions for variable names and function names(neocomplcache), expand
 Compile Vim with `--enable-pythoninterp` and `--enable-rubyinterp` to enable powerful syntax completion supplied by neocomplcache.
 
 ``` bash
-brew install macvim --override-system-vim  # OS X
+brew install vim                           # OS X
 yaourt -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
@@ -232,6 +232,9 @@ Clone in Mac
 4. Install bundles. Launch vim(ignore the errors and they will disappear after installing needed plugins)and run:
 
         :BundleInstall
+
+5. Install some binaries need for vim-go，require vim 8.2+
+        :GoInstallBinaries 
 
 Thst's it!
 
