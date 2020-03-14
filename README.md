@@ -234,6 +234,7 @@ Clone in Mac
         :BundleInstall
 
 5. Install some binaries need for vim-go，require vim 8.2+
+
         :GoInstallBinaries 
 
 Thst's it!
